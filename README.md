@@ -4,6 +4,8 @@ A full-stack app for creating, browsing, searching, and publishing **book
 summaries**, with automatic cross-posting to Medium. Django REST Framework +
 PostgreSQL full-text search on the backend, React (Vite) on the frontend.
 
+![Book Summary Platform — home grid with search and tag filters](docs/screenshot.jpg)
+
 - **Backend** — Django + DRF, token auth, PostgreSQL full-text search
   (`SearchVectorField` + GIN index), a pluggable Medium cross-post service, and a
   pytest suite at **100% coverage**.
